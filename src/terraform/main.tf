@@ -10,7 +10,7 @@ backend "azure" {
     resource_group_name  = "friday-demo-rg"
     storage_account_name = "sttfstatemgt01"
     container_name       = "tfstate"
-    key                  = "demo.terraform.tfstate"
+    key                  = "demo.terraform5.tfstate"
   }
 }
 
